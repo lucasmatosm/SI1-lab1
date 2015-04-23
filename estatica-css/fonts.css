@@ -1,0 +1,80 @@
+*{
+margin:0;
+padding:1000;
+}
+#geral{
+width:200em
+margin:0 1000;
+}
+#esquerda{
+border-color: blue;
+border-style: groove;
+border-width: 30px;
+border-radius: 100px 100px 100px 100px;
+width:50em;
+
+float:left;
+margin: 0 0px;
+}
+#outro{
+border-color: blue;
+border-style: groove;
+border-width: 30px;
+border-radius: 100px 100px 100px 100px;
+width:50em;
+padding:1em;
+float:left;
+margin: -250px 0px;
+}
+#centro{
+border-color: blue;
+border-style: groove;
+border-width: 30px;
+border-radius: 100px 100px 100px 100px;
+width:50em;
+padding:2em;
+float:center;
+margin: 250px 100px;
+}
+#botao{
+float:right;
+margin: -70px 0px;
+}
+#corpo{
+width: 100em 100em;
+float:center;
+}
+h1{
+width:1000px;
+font-family: Courier;
+text-decoration: underline;
+font-weight: bold;
+padding:3px;
+float:center;
+margin: 0 200px;
+}
+h2{
+font-family: Courier;
+padding: 0px 15px;
+font-weight: bold;
+font-size: 22px;
+margin: 100 100px;
+}
+h3{
+font-family: Courier;
+padding: 0px 15px;
+font-weight: bold;
+font-size: 22px;
+}
+h4{
+font-family: Courier;
+padding: 0px 15px;
+font-weight: bold;
+font-size: 22px;
+}
+p{
+text-indent: 30px;
+padding: 0px 15px;
+text-align: justify;
+font-size: 22px
+}
