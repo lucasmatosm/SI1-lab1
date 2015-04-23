@@ -1,0 +1,131 @@
+#back-to-index{
+	padding: 20px;
+}
+p {
+	text-align: center;
+	color: #fff;
+}
+
+#carousel-caption {
+	font-style: oblique;
+	color: #051A16;
+}
+
+#argumento {
+	margin-bottom: 20px;
+}
+
+#me-convenci {
+	margin-bottom: 20px;
+}
+
+body {
+	background-color: #000;
+	background-image:url("../images/servicos-web-fig.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: auto;
+	color: #fff;
+    margin-right: auto;
+    width: 940px;
+}
+
+.carousel{	
+	width:640px;
+	height:360px;
+	position: relative;
+	margin: 40px auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+#cadastre-se{
+	background-image: url(img/title-background.jpg);
+	text-align: center;
+}
+
+#end-title {
+	background-image: url(img/title-background.jpg);
+	padding: 10px;
+	text-align: center;
+}
+
+#porque {
+	background-image: url(img/title-background.jpg);
+	padding: 10px;
+	text-align: center;
+}
+
+h1 {
+	background-image: url(img/title-background.jpg);
+	padding: 10px;
+}
+
+h2 {
+    border-bottom: 2px groove #333333;
+    margin-top: 30px;
+}
+
+form {
+	margin-top: 10px;	
+	padding-left: 10px;
+}
+
+figure {
+	background-color: #F2EDED;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 15px;
+    margin: 30px;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: 10px;
+}
+
+#index-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+#form-cadastro {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #eee;
+}
+
+.form-signin {
+	max-width: 900px;
+}
+.form-signin .form-signin-heading,
+.form-signin {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+	position: left;
+	height: auto;
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus {
+	z-index: 4;
+}
+.form-signin input[type="text"] {
+	margin-bottom: 10px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.form-signin input[type="number"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
