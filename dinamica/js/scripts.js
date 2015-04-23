@@ -19,6 +19,7 @@ $(document).ready(function(){
 	$("#adicionar").click(function(){
 		var nome_disciplina = $("#campo").val();
 		addDisciplina(nome_disciplina);
+		$("#campo").val('');
 	});
 	$("#aprender").click(function(){
 		if (showAprender) { 
