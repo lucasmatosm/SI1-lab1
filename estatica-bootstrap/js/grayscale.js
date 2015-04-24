@@ -29,8 +29,6 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-// Google Maps Scripts
-// When the window has finished loading create our google map below
 
 
 function init() {
@@ -41,7 +39,7 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-       
+        center: new google.maps.LatLng(40.6700, -73.9400), // New York
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -159,5 +157,4 @@ function init() {
             }]
         }]
     };
-   
 }
